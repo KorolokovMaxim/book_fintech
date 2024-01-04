@@ -1,12 +1,7 @@
 package domain;
 
-import notification.Notification;
-
 import java.time.LocalDate;
-import java.time.format.DateTimeParseException;
 import java.util.Objects;
-
-import static java.lang.StringTemplate.STR;
 
 public record BankTransaction(LocalDate date, double amount, String description) {
 
